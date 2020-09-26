@@ -14,6 +14,11 @@ Hai anche a disposizione il [[laboratorio]] per analizzare i dati raccolti
 Puoi impostare le coordinate per il [[Pianeta]]
 <</if>>
 
+:: immagine
+Ecco il foglio uscito dal libro sembra un [img[images/trex-image-big.jpeg][Trex]]
+[[Start]]
+
+
 :: laboratorio
 Ora che hai esaminato la ricostruzione della creatura hai una qualtità di dati che ti aiuta a stimare le coordinate del pianeta dal quale arriva
 <<set $labVisited = true>> 
