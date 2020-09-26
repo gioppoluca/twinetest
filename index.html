@@ -107,19 +107,17 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://82C15694-9CDE-4CE1-A4BB-6DE49355A2CC// --><tw-storydata name="A teleport in the past" startnode="1" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="82C15694-9CDE-4CE1-A4BB-6DE49355A2CC" zoom="1" format="SugarCube" format-version="2.33.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">&lt;&lt;set $labVisited = false&gt;&gt; 
-@@#hello;Benvenuto esploratore spaziale@@
-Hai trovato un antico Libro e al suo interno è caduta una fotografia strana che cattura la tua curiosità, puoi utilizzare il tuo tricorder per esaminarla
+	<!-- UUID://82C15694-9CDE-4CE1-A4BB-6DE49355A2CC// --><tw-storydata name="A teleport in the past" startnode="1" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="82C15694-9CDE-4CE1-A4BB-6DE49355A2CC" zoom="1" format="SugarCube" format-version="2.33.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">@@#hello;Benvenuto esploratore spaziale@@
+Hai trovato un antico Libro e al suo interno è caduta una [[fotografia]] strana che cattura la tua curiosità, puoi utilizzare il tuo tricorder per esaminarla
 &lt;html&gt;
   &lt;div style=&quot;cursor: pointer;&quot; onclick=&quot;addScene()&quot;&gt; Usa il tricorder&lt;/div&gt;
 &lt;/html&gt;
 
 Hai anche a disposizione il [[laboratorio]] per analizzare i dati raccolti
-&lt;&lt;if $labVisited&gt;&gt;
+&lt;&lt;if visited(&quot;laboratorio&quot;)&gt;&gt;
 Puoi impostare le coordinate per il [[Pianeta]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="immagine" tags="" position="225,100" size="100,100">Ecco il foglio uscito dal libro sembra un [img[images/trex-image-big.jpeg][Trex]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="fotografia" tags="" position="225,100" size="100,100">Ecco il foglio uscito dal libro sembra un [img[images/trex-image-big.jpeg][Trex]]
 [[Start]]</tw-passagedata><tw-passagedata pid="3" name="laboratorio" tags="" position="350,100" size="100,100">Ora che hai esaminato la ricostruzione della creatura hai una qualtità di dati che ti aiuta a stimare le coordinate del pianeta dal quale arriva
-&lt;&lt;set $labVisited = true&gt;&gt; 
 
 [[Start]]</tw-passagedata><tw-passagedata pid="4" name="Pianeta" tags="" position="475,100" size="100,100">Imposti le coordinate per il pianeta misterioso.
 Chissà se troverai l&#39;antico pianeta natale dei mitici dinosauri?
