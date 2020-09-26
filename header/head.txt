@@ -1,7 +1,7 @@
 <script>
     function addScene() {
       var scene = document.createElement("iframe")
-      scene.setAttribute("src", "./external/ar.html")
+      scene.setAttribute("src", "./external_pages/ar.html")
       scene.setAttribute("width", "300")
       scene.setAttribute("height", "300")
       document.querySelector("body").appendChild(scene)
