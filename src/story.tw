@@ -3,13 +3,6 @@ Tweego Basic Setup
 
 :: Start
 @@#hello;Hello World!@@
-[[Ar]]
-[[Test]]
-
-:: Test
-prova
-
-:: Ar
 <html>
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
@@ -39,3 +32,13 @@ prova
     <a-entity camera></a-entity>
   </a-scene>
 </html>
+[[Ar]]
+[[Test]]
+
+:: Test
+prova
+[[Start]]
+
+
+:: Ar
+[[Start]]
