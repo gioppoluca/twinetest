@@ -1,18 +1,28 @@
 :: StoryTitle
-Tweego Basic Setup
+A teleport in the past
 
 :: Start
-@@#hello;Hello World!@@
+<<set $labVisited = false>> 
+@@#hello;Benvenuto esploratore spaziale@@
+Hai trovato un antico Libro e al suo interno è caduta una fotografia strana che cattura la tua curiosità, puoi utilizzare il tuo tricorder per esaminarla
 <html>
-  <div style="cursor: pointer;" onclick="addScene()"> Click on this</div>
+  <div style="cursor: pointer;" onclick="addScene()"> Usa il tricorder</div>
 </html>
-[[Ar]]
-[[Test]]
 
-:: Test
-prova
+Hai anche a disposizione il [[laboratorio]] per analizzare i dati raccolti
+<<if $labVisited>>
+Puoi impostare le coordinate per il [[Pianeta]]
+<</if>>
+
+:: laboratorio
+Ora che hai esaminato la ricostruzione della creatura hai una qualtità di dati che ti aiuta a stimare le coordinate del pianeta dal quale arriva
+<<set $labVisited = true>> 
+
 [[Start]]
 
 
-:: Ar
+:: Pianeta
+Imposti le coordinate per il pianeta misterioso.
+Chissà se troverai l'antico pianeta natale dei mitici dinosauri?
+
 [[Start]]
