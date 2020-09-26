@@ -3,10 +3,13 @@ Tweego Basic Setup
 
 :: Start
 @@#hello;Hello World!@@
-[[AR]]
+[[Ar]]
+[[Test]]
 
+:: Test
+prova
 
-:: AR
+:: Ar
 <html>
   <div class="arjs-loader">
     <div>Loading, please wait...</div>
