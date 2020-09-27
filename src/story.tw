@@ -1,8 +1,14 @@
 :: StoryTitle
 A teleport in the past
 
-:: Start
-@@#hello;Benvenuto esploratore spaziale@@
+:: Start [single-background]
+<label>What is your name? <<textbox "$name" "Frank">></label>
+
+[[Partenza]]
+
+
+:: Partenza
+@@#hello;Benvenuto <<= $name>>@@
 Hai trovato un antico Libro e al suo interno è caduta una [[fotografia]] strana che cattura la tua curiosità, puoi utilizzare il tuo tricorder per esaminarla
 <html>
   <div style="cursor: pointer;" onclick="addScene()"> Usa il tricorder</div>
@@ -15,22 +21,23 @@ Puoi impostare le coordinate per il [[Pianeta]] o consultare la [[console]]
 
 :: fotografia
 Ecco il foglio uscito dal libro sembra un [img[images/trex-image-big.jpeg][Trex]]
-[[Start]]
+[[Partenza]]
 
 
 :: laboratorio
 Ora che hai esaminato la ricostruzione della creatura hai una qualtità di dati che ti aiuta a stimare le coordinate del pianeta dal quale arriva
 
-[[Start]]
+[[Partenza]]
 
 
 :: Pianeta
 Imposti le coordinate per il pianeta misterioso.
 Chissà se troverai l'antico pianeta natale dei mitici dinosauri?
 
-[[Start]]
+[[Partenza]]
 
 
 :: console
 
 <div class='container'><div id='top-nav-bar'><div id='nav-label'>LCARS</div></div><div id='main-content'><div id='left-content'><div id='main-label'>Science</div><div id='box-content'></div><div id='button-group'><a><div class='lcars-button'>312.</div></a><a><div class='lcars-button'>412.</div></a><a><div class='lcars-button'>512.</div></a></div></div><div id='right-bar'></div></div><div id='bottom-bar'></div></div>
+[[Partenza]]
