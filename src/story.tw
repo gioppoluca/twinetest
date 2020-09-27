@@ -10,7 +10,7 @@ Hai trovato un antico Libro e al suo interno è caduta una [[fotografia]] strana
 
 Hai anche a disposizione il [[laboratorio]] per analizzare i dati raccolti
 <<if visited("laboratorio")>>
-Puoi impostare le coordinate per il [[Pianeta]]
+Puoi impostare le coordinate per il [[Pianeta]] o consultare la [[console]]
 <</if>>
 
 :: fotografia
@@ -29,3 +29,25 @@ Imposti le coordinate per il pianeta misterioso.
 Chissà se troverai l'antico pianeta natale dei mitici dinosauri?
 
 [[Start]]
+
+
+:: console
+
+<div class='container'>
+  <div id='top-nav-bar'>
+    <div id='nav-label'>LCARS</div>
+  </div>
+  <div id='main-content'>
+    <div id='left-content'>
+      <div id='main-label'>Science</div>
+      <div id='box-content'></div>
+        <div id='button-group'>
+          <a><div class='lcars-button'>312.</div></a>
+          <a><div class='lcars-button'>412.</div></a>
+          <a><div class='lcars-button'>512.</div></a>
+       </div>
+    </div>
+    <div id='right-bar'></div>
+  </div>
+  <div id='bottom-bar'></div>
+</div>
