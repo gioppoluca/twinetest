@@ -33,21 +33,4 @@ Chissà se troverai l'antico pianeta natale dei mitici dinosauri?
 
 :: console
 
-<div class='container'>
-  <div id='top-nav-bar'>
-    <div id='nav-label'>LCARS</div>
-  </div>
-  <div id='main-content'>
-    <div id='left-content'>
-      <div id='main-label'>Science</div>
-      <div id='box-content'></div>
-        <div id='button-group'>
-          <a><div class='lcars-button'>312.</div></a>
-          <a><div class='lcars-button'>412.</div></a>
-          <a><div class='lcars-button'>512.</div></a>
-       </div>
-    </div>
-    <div id='right-bar'></div>
-  </div>
-  <div id='bottom-bar'></div>
-</div>
+<div class='container'><div id='top-nav-bar'><div id='nav-label'>LCARS</div></div><div id='main-content'><div id='left-content'><div id='main-label'>Science</div><div id='box-content'></div><div id='button-group'><a><div class='lcars-button'>312.</div></a><a><div class='lcars-button'>412.</div></a><a><div class='lcars-button'>512.</div></a></div></div><div id='right-bar'></div></div><div id='bottom-bar'></div></div>
